@@ -1,14 +1,16 @@
 
 # 🔴🟠 Graph Coloring Genetic Algorithm 🔵🟣
 This Python script implements a genetic algorithm for solving the graph coloring problem. Given a graph represented as a set of tuples of nodes, the goal is to find the minimal number of colors needed to color the graph such that no adjacent nodes have the same color.
-
-## Problem Description 🎨🖌️
+To clone this repository, use 
+```sh
+```
+## Graph and chromosome representation 🎨🖌️
 A graph is defined as a set of tuples of nodes, where nodes are labeled with integers starting at 0. For example, a graph could be {(0,1),(1,2),(2,3),(1,3)}, representing a graph with 4 vertices and 4 edges.
 
 For the chromosomes of the genetic algorithm, a list is used where each element corresponds to the color of a node in the graph. The length of chromosomes depends on the number of nodes in the input graph.
 
 ## Constraints 🚧✋
-* The graph cannot contain self-loops.
+* The graph representation cannot contain self-loops.
 * Nodes of the graph should cover all consecutive numbers within a range, starting from 0.
 * Multiple edges between two nodes are counted only once.
   
