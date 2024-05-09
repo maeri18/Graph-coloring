@@ -29,10 +29,7 @@ To use the script:
 * The function returns the minimal number of colors required and a possible coloring scheme.
 
 ### Example
-python
-Copy code
-from graph_coloring_genetic_algorithm import graph_coloring
-
+```sh
 # Define your graph
 graph = {(0,1),(1,2),(2,3),(1,3)}
 
@@ -40,13 +37,16 @@ graph = {(0,1),(1,2),(2,3),(1,3)}
 minimal_colors, coloring_scheme = graph_coloring(graph)
 
 print("The graph can be colorized with", minimal_colors, "colors.")
-Dependencies
+```
+
+## Dependencies
 This script requires the following dependencies:
 
-pyvis: for graph visualization
-Install the dependencies using pip:
+### pyvis: for graph visualization
+Install [pyvis][https://pyvis.readthedocs.io/en/latest/install.html] using pip:
 
-Copy code
+```sh
 pip install pyvis
-Author
-This script was authored by [Your Name].
+```
+## Author
+This script was authored by Ingrid Maéva chekam.
