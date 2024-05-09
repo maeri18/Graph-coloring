@@ -43,7 +43,7 @@ print("The graph can be colorized with", minimal_colors, "colors.")
 This script requires the following dependencies:
 
 ### pyvis: for graph visualization
-Install [pyvis][https://pyvis.readthedocs.io/en/latest/install.html] using pip:
+Install [pyvis](https://pyvis.readthedocs.io/en/latest/install.html) using pip:
 
 ```sh
 pip install pyvis
